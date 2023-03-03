@@ -1,6 +1,11 @@
-# Higgs Analyse mit CSV
+# Higgs analysis with CSV
 
-## Aufbau der Dateien
-In jeder CSV Datei sind px, py, pz und Energie der vier relevanten Leptonen gespeichert (insgesamt 16 Felder). Die Leptonen sind hintereinander gelistet, der erste Eintrag jeder Zeile beinhaltet also px des ersten Leptons, der zweite Eintrag py des ersten Leptons und der 16. Eintrag schließlich die Energie des vierten Leptons. Der 17. Eintrag beinhaltet das Ereignisgewicht (bei Daten ist dies exakt 1). Jede Zeile der CSV Datei entspricht einem Ereignis.
+## Structure of the data 
+In each csv file there are px, py, pz and energy of the four relevant leptons stored (in total 16 fields).
+the leptons are listed after each other, the first entry of each cell is px of the first lepton, the second entry is py of the first lepton and the 16th entry is the energy of the fourth lepton. The 17th entry contains the event weight (for data exactly 1). Each row of the csv file represents one event.
 
-![](https://raw.githubusercontent.com/denschwarz/PPT_csv/master/CSV.png)
+
+![](https://raw.githubusercontent.com/abenecke/PPT_csv/master/CSV.png)
+
+
+Based in the repository from [Dennis Schwartz] (https://github.com/denschwarz/PPT_csv)
